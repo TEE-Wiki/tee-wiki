@@ -6,8 +6,11 @@ sidebar_label: MEV
 
 # MEV
 
-Maximal Extractable Value (MEV) refers to profit captured by reordering or injecting transactions within a block. This is often via sandwich or frontrunning attacks that drain user funds and undermine fairness.
+Maximal Extractable Value (MEV) refers to the maximum value that can be extracted from block production by including, excluding, and changing the order of transactions. This can harm the end user, for example via sandwich attacks or frontrunning, which results in a significantly worse execution price and undermines fairness.
 
-TEEs counter MEV by enabling encrypted block building, which hides transaction contents until after a validator commits. Project like Flashbots’ TEE-powered builders and protocols like [SUAVE](https://github.com/flashbots/suave-geth) let you set private execution rules inside the enclave, so your transaction goes exactly where and when you want it, without leaking to the public mempool.
+TEEs can help mitigate many of the negative externalities of MEV, notable examples from [Flashbots](https://www.flashbots.net/) include:
+* [BuilderNet](https://buildernet.org/): A decentralized block building network designed to neutralize exclusive orderflow deals, enhance Ethereum’s censorship resistance, and accelerate decentralization across rollups and apps.
+* [Rollup-Boost](https://writings.flashbots.net/introducing-rollup-boost): A platform for rollup extensions like verifiable block building, fast confirmation times, strong user guarantees, and MEV internalization
+* [SUAVE](https://github.com/flashbots/suave-geth): Decentralizes the MEV supply chain by enabling centralized infrastructure (builders, relays, centralized RFQ routing, etc.) to be programmed as smart contracts on a decentralized blockchain.
 
-For more on MEV, check out MEV Wiki: https://www.mev.wiki/
+For more on MEV, check out [MEV Wiki](https://www.mev.wiki) and [The MEV Letter](https://collective.flashbots.net/tag/the-mev-letter).
