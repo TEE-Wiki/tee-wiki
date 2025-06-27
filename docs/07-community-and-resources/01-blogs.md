@@ -5,8 +5,6 @@ sidebar_label: Blogs, whitepapers, and research
 ---
 
 # Blogs, whitepapers, and research 
-
-# Blogs, whitepapers, and research 
 *   [Intel TDX Demystified: A Top-Down Approach by IBM Research](https://arxiv.org/abs/2303.15540)
 *   [Autonomous TEE manifesto by Poetic Technologies](https://poeticte.ch/posts/autonomous-TEEs-manifesto.html)
 *   [Searching in TDX by Flashbots](https://collective.flashbots.net/t/searching-in-tdx/3902)
