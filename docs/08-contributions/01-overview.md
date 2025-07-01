@@ -27,5 +27,5 @@ All contributions should prioritize clarity, accuracy, and technical rigor. Wher
 
 | Role | Responsibilities | Commitment |
 | --- | --- | --- |
-| **Contributor** | • Submit content improvements or new sections via pull requests.<br>• Suggest edits, add references, or update examples. | • Contribute when you see fit.<br>• No regular schedule required. |
-| **Admin** | • Review and merge pull requests.<br>• Ensure consistency of structure and voice.<br>• Curate and reorganize content when needed. | • Review and update sections bi-monthly.<br>• Check repo health every 2–4 weeks. |
+| **Contributor** | • Submit content improvements or new sections via pull requests.<br/>• Suggest edits, add references, or update examples. | • Contribute when you see fit.<br/>• No regular schedule required. |
+| **Admin** | • Review and merge pull requests.<br/>• Ensure consistency of structure and voice.<br/>• Curate and reorganize content when needed. | • Review and update sections bi-monthly.<br/>• Check repo health every 2–4 weeks. |
