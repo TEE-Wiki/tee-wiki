@@ -3,6 +3,6 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Intel SGX has been a frequent target of academic and practical attacks, here are some examples of vulnerabilities that were identified:"
+    "description": "Intel SGX has been a frequent target of academic and practical attacks. Below are some examples of vulnerabilities that were identified. A comprehensive list of SGX-related hacks can be found on [SGX.Fail](https://sgx.fail/)."
   }
 }
