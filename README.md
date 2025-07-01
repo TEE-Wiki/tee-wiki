@@ -6,13 +6,14 @@ The TEE Wiki is a collaborative knowledge base focused on Trusted Execution Envi
 - Curate relevant examples, projects, and references that demonstrate the practical use of TEEs in privacy-preserving and verifiable systems.
 This repository is intended to serve as a shared technical resource to help standardize understanding and accelerate responsible adoption of TEE technology.
 
-### Contributing to the wiki
+### Contributing to the Wiki
 Contributions are welcome from developers, researchers, and technical writers. You can help by:
 - Adding or updating explanations for core TEE concepts (e.g., attestation flows, TCB composition, enclave isolation).
 - Documenting real-world projects or protocols that utilize TEEs.
 - Improving content clarity, structure, or formatting.
 - Contributing visual aids (e.g., architecture diagrams, flowcharts).
 - Reviewing or refining existing content for technical accuracy.
+
 To contribute:
 1. Fork this repository and create a feature branch.
 2. Make your changes with clear commit messages.
