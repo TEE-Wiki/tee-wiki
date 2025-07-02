@@ -20,7 +20,7 @@ A shared effort by [Automata Network](https://ata.network/), [Flashbots](https:/
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  const imageUrl = useBaseUrl('/img/banner.png');
+  const imageUrl = useBaseUrl('/img/banner.jpg');
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
