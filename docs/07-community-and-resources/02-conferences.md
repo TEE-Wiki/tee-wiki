@@ -1,10 +1,18 @@
 ---
-title: Conferences, talks, and workshops 
+title: Conferences, talks, podcasts, and workshops 
 description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
-sidebar_label: Conferences, talks, and workshops 
+sidebar_label: Conferences, talks, podcasts, and workshops 
 ---
 
-# Conferences, talks, and workshops 
+# Conferences, talks, podcasts, and workshops 
+
+## **2025-07**
+
+* [How T1 Protocol Brings Real-Time Proving to Ethereum](https://www.youtube.com/watch?v=OnCQr_3XsPA) — by Orest Tarasiuk
+
+### **EthCC 2025**
+
+* [Ethereum’s future hinges on TEEs](https://www.youtube.com/watch?v=5f58L1iPquI) — by Deli Gong
 
 ## **2025-02**
 
