@@ -14,6 +14,11 @@ sidebar_label: Conferences, talks, podcasts, and workshops
 
 * [Ethereum’s future hinges on TEEs](https://www.youtube.com/watch?v=5f58L1iPquI) — by Deli Gong
 
+## **2025-03**
+
+* [Why is Everyone in Ethereum Talking About TEEs?](https://www.youtube.com/watch?v=hmuGh7twuro) — by Jason Chaskin
+
+
 ## **2025-02**
 
 ### **EthDenver 2025**
