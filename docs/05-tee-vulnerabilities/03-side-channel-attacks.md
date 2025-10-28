@@ -8,6 +8,13 @@ sidebar_label: Side-channel attacks
 
 These attacks don’t break the enclave directly, they infer secrets by watching its behavior, such as timing differences or physical emissions.
 
+### [WireTap (Physical bus-snooping hardware attack)](https://wiretap.fail/)
+WireTap inserts a custom DDR4 interposer between the CPU and DRAM to capture encrypted memory traffic from Intel SGX enclaves. By analyzing these physical signals, attackers exploit deterministic memory encryption in Intel’s Total Memory Encryption (TME) to recover plaintext patterns. This enables the extraction of the SGX Quoting Enclave’s ECDSA signing key, allowing the creation of forged attestation quotes that verify as genuine.
+
+**Mitigation:**
+* Rotate attestation keys frequently and limit their exposure.
+* Use multi-prover or distributed attestation to reduce single-machine trust assumptions.
+
 ### [SGX‑Step (Interrupt‑driven single‑stepping attack)](https://github.com/jovanbulck/sgx-step)
 SGX‑Step is an open‑source framework that lets an untrusted OS raise high‑frequency APIC timer interrupts, effectively single‑stepping an enclave one instruction at a time, debugger-like. By precisely measuring where each **Asynchronous Enclave Exit (AEX)** occurs, an attacker can: reconstruct fine‑grained control‑flow, defeat in‑enclave ASLR, mount data‑oriented or branch‑shadowing attacks that extract secrets such as key‑dependent branches and memory indices.
 
