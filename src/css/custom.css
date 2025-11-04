@@ -4,27 +4,482 @@
  * work well for content-centric websites.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #2d3748;
+  --ifm-color-primary-dark: #252d3a;
+  --ifm-color-primary-darker: #212830;
+  --ifm-color-primary-darkest: #1a1f2a;
+  --ifm-color-primary-light: #3a4556;
+  --ifm-color-primary-lighter: #424d60;
+  --ifm-color-primary-lightest: #4a5568;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ifm-heading-font-weight: 700;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.7;
+  --ifm-heading-line-height: 1.3;
+  --docusaurus-highlighted-code-line-bg: rgba(45, 55, 72, 0.12);
+
+  /* Accent colors */
+  --accent-primary: #1a1a1a;
+  --accent-secondary: #4a5568;
+  --accent-light: #718096;
+
+  /* Modern spacing */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-navbar-height: 5rem;
+  --ifm-navbar-padding-vertical: 1.25rem;
+
+  /* Border radius */
+  --ifm-global-radius: 12px;
+  --ifm-button-border-radius: 999px;
+
+  /* Shadows */
+  --ifm-global-shadow-lw: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --ifm-global-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --ifm-global-shadow-tl: 0 16px 40px rgba(0, 0, 0, 0.16);
+}
+
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+[data-theme='dark'] body {
+  background-color: #0a0a0a;
+  color: #e2e8f0;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #e2e8f0;
+  --ifm-color-primary-dark: #cbd5e0;
+  --ifm-color-primary-darker: #a0aec0;
+  --ifm-color-primary-darkest: #718096;
+  --ifm-color-primary-light: #edf2f7;
+  --ifm-color-primary-lighter: #f7fafc;
+  --ifm-color-primary-lightest: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.15);
+
+  --accent-primary: #ffffff;
+  --accent-secondary: #e2e8f0;
+  --accent-light: #cbd5e0;
+
+  --ifm-global-shadow-lw: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --ifm-global-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --ifm-global-shadow-tl: 0 16px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* ==================== NAVBAR STYLING ==================== */
+
+.navbar {
+  background: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(220, 227, 234, 0.6);
+  box-shadow: 0 4px 20px rgba(15, 30, 45, 0.06);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar__inner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+[data-theme='dark'] .navbar {
+  background: rgba(10, 10, 10, 0.9) !important;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.navbar__title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+}
+
+.navbar__link {
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem !important;
+}
+
+.navbar__link:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--ifm-color-primary) !important;
+}
+
+[data-theme='dark'] .navbar__link:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.navbar__item {
+  transition: transform 0.2s ease;
+}
+
+.navbar__item:hover {
+  transform: translateY(-1px);
+}
+
+/* Mobile navbar improvements */
+.navbar-sidebar {
+  background: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(20px);
+  height: 100vh !important;
+  top: 0 !important;
+}
+
+[data-theme='dark'] .navbar-sidebar {
+  background: rgba(10, 10, 10, 0.98) !important;
+}
+
+.navbar-sidebar__backdrop {
+  background: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(4px);
+}
+
+.navbar-sidebar__items {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__toggle {
+  transition: all 0.3s ease;
+}
+
+.navbar__toggle:hover {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+[data-theme='dark'] .navbar__toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Simple mobile menu styling */
+@media (max-width: 996px) {
+  /* Proper mobile navbar layout */
+  .navbar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .navbar__brand {
+    flex: 0 0 auto;
+  }
+
+  .navbar__toggle {
+    order: -1;
+    margin-right: 1rem;
+    flex: 0 0 auto;
+  }
+
+  .navbar-sidebar__brand {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  [data-theme='dark'] .navbar-sidebar__brand {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+
+  /* Hide the "Back to main menu" button since we only have primary nav */
+  .navbar-sidebar__back {
+    display: none !important;
+  }
+
+  /* Increase content visibility */
+  .navbar-sidebar__items {
+    height: auto;
+  }
+
+  /* Primary navigation styling in mobile */
+  .navbar-sidebar .navbar__item {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-sidebar .navbar__link {
+    display: block;
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    border-radius: 8px;
+    margin: 0.25rem 1rem;
+  }
+
+  .navbar-sidebar .navbar__link:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  [data-theme='dark'] .navbar-sidebar .navbar__link:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  /* Menu links in sidebar */
+  .menu__link {
+    padding: 0.875rem 1.5rem;
+    border-radius: 8px;
+    margin: 0.25rem 1rem;
+  }
+
+  .menu__link:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  [data-theme='dark'] .menu__link:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* ==================== DOCS PAGES STYLING ==================== */
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid rgba(220, 227, 234, 0.6) !important;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.menu__link {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0.75rem;
+}
+
+.menu__link:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+[data-theme='dark'] .menu__link:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.menu__link--active {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.04) 100%);
+  border-left: 3px solid var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+[data-theme='dark'] .menu__link--active {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.06) 100%);
+  border-left-color: var(--ifm-color-primary);
+}
+
+/* ==================== HEADINGS ==================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* ==================== CARDS & CONTAINERS ==================== */
+
+.card {
+  border-radius: 16px;
+  border: 1px solid rgba(220, 227, 234, 0.6);
+  box-shadow: 0 8px 24px rgba(15, 30, 45, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(15, 110, 115, 0.12);
+}
+
+[data-theme='dark'] .card {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+}
+
+[data-theme='dark'] .card:hover {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* ==================== BUTTONS ==================== */
+
+.button {
+  border-radius: var(--ifm-button-border-radius);
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0.625rem 1.5rem;
+}
+
+.button--primary {
+  background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+  border: none;
+}
+
+.button--primary:hover {
+  background: linear-gradient(135deg, #2d3748 0%, #1a1a1a 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.button--secondary {
+  border: 2px solid var(--ifm-color-primary);
+}
+
+.button--secondary:hover {
+  background: rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+[data-theme='dark'] .button--secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* ==================== CODE BLOCKS ==================== */
+
+.theme-code-block {
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15, 30, 45, 0.08);
+  margin: 1.5rem 0;
+}
+
+[data-theme='dark'] .theme-code-block {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* ==================== TABLES ==================== */
+
+table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table thead tr {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.02) 100%);
+}
+
+[data-theme='dark'] table thead tr {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%);
+}
+
+table tr {
+  transition: background 0.2s ease;
+}
+
+table tbody tr:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+[data-theme='dark'] table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* ==================== ADMONITIONS ==================== */
+
+.admonition {
+  border-radius: 12px;
+  border-left-width: 4px;
+  box-shadow: 0 4px 16px rgba(15, 30, 45, 0.06);
+}
+
+[data-theme='dark'] .admonition {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* ==================== TOC ==================== */
+
+.table-of-contents {
+  border-left: 2px solid rgba(220, 227, 234, 0.6);
+  padding-left: 1rem;
+}
+
+[data-theme='dark'] .table-of-contents {
+  border-left-color: rgba(255, 255, 255, 0.1);
+}
+
+.table-of-contents__link {
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  margin-left: -0.5rem;
+}
+
+.table-of-contents__link:hover {
+  background: rgba(0, 0, 0, 0.04);
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .table-of-contents__link:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* ==================== FOOTER ==================== */
+
+.footer {
+  background: linear-gradient(180deg, #f5f7fa 0%, #e8ecf2 100%);
+  border-top: 1px solid rgba(220, 227, 234, 0.6);
+}
+
+[data-theme='dark'] .footer {
+  background: linear-gradient(180deg, #0a0a0a 0%, #121212 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ==================== PAGINATION ==================== */
+
+.pagination-nav__link {
+  border-radius: 12px;
+  border: 1px solid rgba(220, 227, 234, 0.6);
+  transition: all 0.3s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+[data-theme='dark'] .pagination-nav__link {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+[data-theme='dark'] .pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.1);
 }

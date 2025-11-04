@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'TEE Wiki',
-  tagline: 'The TEE Knowledge Source',
+  tagline: 'tee.fyi knowledge base for trusted execution environments',
   favicon: 'img/favicon-1.png',
 
   // Set the production url of your site here
@@ -63,8 +63,16 @@ const config = {
       image: 'img/tee-wiki-social-card.webp',
       metadata: [
         {
-          name: 'description', content: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.',
-        }
+          name: 'description',
+          content:
+            'TEE Wiki at tee.fyi is a collaborative resource curated by leading projects to accelerate trusted execution adoption with practical guides, research, and community updates.',
+        },
+        {
+          property: 'og:description',
+          content:
+            'Explore tee.fyi to access TEE architecture primers, real-world applications, security reviews, and contributor insights from across the ecosystem.',
+        },
+        {property: 'og:url', content: 'https://tee.fyi'},
       ],
       navbar: {
         title: 'TEE Wiki',
