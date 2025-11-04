@@ -387,21 +387,6 @@
 .sectionTitle {
   margin-bottom: 1rem;
   text-align: center;
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
-.sectionTitle::after {
-  content: '';
-  position: absolute;
-  bottom: -0.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 4px;
-  background: linear-gradient(90deg, #1a1a1a, #4a5568);
-  border-radius: 2px;
 }
 
 .sectionSubtitle {
