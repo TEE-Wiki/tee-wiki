@@ -1,6 +1,6 @@
 ---
 title: Other resources
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
+description: 'Discover additional TEE resources including reading lists, GitHub repositories, attestation explorers, and community forums.'
 sidebar_label: Other resources
 ---
 

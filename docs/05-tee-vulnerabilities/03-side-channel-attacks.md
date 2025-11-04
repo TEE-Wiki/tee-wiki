@@ -1,6 +1,6 @@
 ---
 title: Side-channel attacks
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
+description: 'Discover side-channel attacks like WireTap, SGX-Step, and CacheZoom that infer secrets by observing TEE behavior through timing, power, and electromagnetic emissions.'
 sidebar_label: Side-channel attacks
 ---
 

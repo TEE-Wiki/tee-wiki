@@ -1,6 +1,6 @@
 ---
 title: Software attacks
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
+description: 'Explore software-based attacks on TEEs like Foreshadow and SGAxe that exploit bugs in enclave firmware or runtime environments, and understand available mitigations.'
 sidebar_label: Software attacks
 ---
 

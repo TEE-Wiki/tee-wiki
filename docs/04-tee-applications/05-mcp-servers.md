@@ -1,5 +1,6 @@
 ---
 title: MCP Servers
+description: 'Learn how TEEs secure Model Context Protocol (MCP) Servers by protecting user data, ensuring verifiable execution, and keeping cryptographic keys unknown to server operators.'
 sidebar_label: MCP Servers
 ---
 

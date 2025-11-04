@@ -1,5 +1,6 @@
 ---
 title: MPC Nodes
+description: 'Discover how TEEs enhance Multi-Party Computation nodes through enhanced key protection and elimination of collision risks, ensuring secure distributed cryptographic protocols.'
 sidebar_label: MPC Nodes
 ---
 
