@@ -79,45 +79,45 @@ function HeroSection() {
 
   return (
     <header className={styles.heroSection}>
-      <div className={clsx('container', styles.heroContainer)}>
+      <div className={styles.heroWrapper}>
         <div className={styles.heroContent}>
-          <Heading as="h1" className={styles.heroTitle}>
-            TEE Wiki
-          </Heading>
-          <p className={styles.heroSubtitle}>
-            A collaborative knowledge base for trusted execution environments, curated by the tee.fyi
-            community to accelerate responsible adoption across Web3 and beyond.
-          </p>
-          <div className={styles.ctaGroup}>
-            <Link
-              className={clsx('button button--primary button--lg', styles.ctaPrimary)}
-              to="/docs/category/introduction">
-              <span>Get Started</span>
-            </Link>
-            <Link
-              className={clsx('button button--outline button--lg', styles.ctaSecondary)}
-              href="https://github.com/TEE-Wiki/tee-wiki"
-              target="_blank"
-              rel="noopener noreferrer">
-              <span>Contribute</span>
-            </Link>
-          </div>
-          <div className={styles.logoScrollWrapper}>
-            <div className={styles.logoScrollTrack}>
-              {duplicatedContributors.map((contributor, idx) => (
-                <div key={`${contributor.name}-${idx}`} className={styles.logoScrollItem}>
-                  <HeroLogo contributor={contributor} />
-                </div>
-              ))}
+            <Heading as="h1" className={styles.heroTitle}>
+              TEE Wiki
+            </Heading>
+            <p className={styles.heroSubtitle}>
+              A collaborative knowledge base for trusted execution environments, curated by the tee.fyi
+              community to accelerate responsible adoption across Web3 and beyond.
+            </p>
+            <div className={styles.ctaGroup}>
+              <Link
+                className={clsx('button button--primary button--lg', styles.ctaPrimary)}
+                to="/docs/category/introduction">
+                <span>Get Started</span>
+              </Link>
+              <Link
+                className={clsx('button button--outline button--lg', styles.ctaSecondary)}
+                href="https://github.com/TEE-Wiki/tee-wiki"
+                target="_blank"
+                rel="noopener noreferrer">
+                <span>Contribute</span>
+              </Link>
             </div>
-          </div>
-          <p className={styles.heroSupport}>
-            Supported by <strong>{contributorCount}</strong> contributing members—and growing.
-            <Link className={styles.heroSupportLink} to="#contributors">
-              Meet the community
-            </Link>
-          </p>
         </div>
+        <div className={styles.logoScrollWrapper}>
+          <div className={styles.logoScrollTrack}>
+            {duplicatedContributors.map((contributor, idx) => (
+              <div key={`${contributor.name}-${idx}`} className={styles.logoScrollItem}>
+                <HeroLogo contributor={contributor} />
+              </div>
+            ))}
+          </div>
+        </div>
+        <p className={styles.heroSupport}>
+          Supported by <strong>{contributorCount}</strong> contributing members—and growing.
+          <Link className={styles.heroSupportLink} to="#contributors">
+            Meet the community
+          </Link>
+        </p>
       </div>
     </header>
   );

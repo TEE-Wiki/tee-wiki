@@ -16,6 +16,17 @@
   padding: 4rem 0;
 }
 
+.heroWrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
 .heroSection::before {
   content: '';
   position: absolute;
@@ -51,23 +62,6 @@
   }
   66% {
     transform: translate(-20px, 20px) scale(0.95);
-  }
-}
-
-
-.heroContainer {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 3rem;
-  align-items: center;
-  max-width: 1200px;
-  position: relative;
-  z-index: 1;
-}
-
-@media screen and (max-width: 996px) {
-  .heroContainer {
-    grid-template-columns: 1fr;
   }
 }
 
@@ -128,15 +122,11 @@
 
 .logoScrollWrapper {
   overflow: hidden;
-  width: calc(100% + 40vw);
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  margin-left: 0;
-  margin-right: -40vw;
-  position: relative;
-  padding: 1rem 0 2rem 0;
-  mask-image: linear-gradient(to right, transparent 0%, black 5%, black 90%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 5%, black 90%, transparent 100%);
+  width: calc(100% + 4rem);
+  margin: 0 -2rem;
+  padding: 1rem 2rem;
+  mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
 }
 
 .logoScrollTrack {
@@ -337,7 +327,7 @@
 }
 
 .heroSupport {
-  margin: 0 0 0 0;
+  margin: 1rem 0 0 0;
   font-size: 1rem;
   color: #4a5568;
   line-height: 1.6;
@@ -591,16 +581,9 @@
     padding: 4rem 0;
   }
 
-  .heroContainer {
-    align-items: center;
-    text-align: center;
-    padding: 0;
-  }
-
   .heroContent {
     max-width: 100%;
     width: 100%;
-    padding: 0 1.5rem;
   }
 
   .ctaGroup {
@@ -616,9 +599,15 @@
   }
 
   .logoScrollWrapper {
-    margin-top: 2rem;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
+    width: calc(100% + 3rem);
+    margin: 0 -1.5rem;
+    padding: 1rem 1.5rem;
+    mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%);
+  }
+
+  .heroWrapper {
+    padding: 0 1.5rem;
   }
 }
 
@@ -627,7 +616,16 @@
     padding: 3rem 0;
   }
 
-  .heroContent {
+
+  .logoScrollWrapper {
+    width: calc(100% + 2rem);
+    margin: 0 -1rem;
+    padding: 1rem 1rem;
+    mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  }
+
+  .heroWrapper {
     padding: 0 1rem;
   }
 
