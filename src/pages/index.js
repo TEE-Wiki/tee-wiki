@@ -202,7 +202,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} · tee.fyi`}
+      title={siteConfig.title}
       description="TEE Wiki at tee.fyi is a shared knowledge base accelerating responsible use of trusted execution environments.">
       <HeroSection />
       <main>
