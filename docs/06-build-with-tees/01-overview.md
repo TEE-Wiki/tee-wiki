@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: 'Explore open-source SDKs and tools for building with TEEs including Gramine, Automata's Attestation SDKs, DStack SDK, ROFL, and SecretVM.'
+description: "Explore open-source SDKs and tools for building with TEEs including Gramine, Automata's Attestation SDKs, DStack SDK, ROFL, and SecretVM."
 ---
 
 # Building with TEEs

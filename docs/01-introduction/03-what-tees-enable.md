@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-description: 'Discover the practical applications enabled by TEEs, including authenticated data feeds for blockchains, private order flow, and confidential machine learning.'
+description: "Discover the practical applications enabled by TEEs, including authenticated data feeds for blockchains, private order flow, and confidential machine learning."
 ---
 
 # What TEEs enable

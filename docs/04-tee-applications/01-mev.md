@@ -1,6 +1,6 @@
 ---
 title: MEV
-description: 'Discover how TEEs mitigate negative externalities of Maximal Extractable Value through projects like BuilderNet, Rollup-Boost, and SUAVE that enhance fairness and decentralization.'
+description: "Discover how TEEs mitigate negative externalities of Maximal Extractable Value through projects like BuilderNet, Rollup-Boost, and SUAVE that enhance fairness and decentralization."
 sidebar_label: MEV
 ---
 

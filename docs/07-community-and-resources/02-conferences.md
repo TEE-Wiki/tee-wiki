@@ -1,6 +1,6 @@
 ---
 title: Conferences, talks, podcasts, and workshops
-description: 'Browse comprehensive archive of TEE-related conferences, talks, podcasts, and workshops from 2023 to present, organized chronologically.'
+description: "Browse comprehensive archive of TEE-related conferences, talks, podcasts, and workshops from 2023 to present, organized chronologically."
 sidebar_label: Conferences, talks, podcasts, and workshops
 ---
 

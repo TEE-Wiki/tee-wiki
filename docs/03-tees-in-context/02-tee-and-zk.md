@@ -1,6 +1,6 @@
 ---
 title: TEEs + ZK
-description: 'Understand how TEEs and Zero-Knowledge proofs can work together, with TEEs providing soft finality and privacy for inputs while ZK offers final proof correctness.'
+description: "Understand how TEEs and Zero-Knowledge proofs can work together, with TEEs providing soft finality and privacy for inputs while ZK offers final proof correctness."
 sidebar_label: TEE + ZK
 ---
 

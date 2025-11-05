@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: 'Compare different types of TEEs including process-based (Intel SGX), VM-based (Intel TDX, AMD SEV), hypervisor-based (AWS Nitro), and custom TEE implementations with their advantages and trade-offs.'
+description: "Compare different types of TEEs including process-based (Intel SGX), VM-based (Intel TDX, AMD SEV), hypervisor-based (AWS Nitro), and custom TEE implementations with their advantages and trade-offs."
 ---
 
 # Types of TEEs

@@ -1,6 +1,6 @@
 ---
 title: Other resources
-description: 'Discover additional TEE resources including reading lists, GitHub repositories, attestation explorers, and community forums.'
+description: "Discover additional TEE resources including reading lists, GitHub repositories, attestation explorers, and community forums."
 sidebar_label: Other resources
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Mitigations
-description: 'Understand Proof of Cloud, a defense-in-depth framework that verifies physical infrastructure integrity through human-assisted, automated, and continuous monitoring.'
+description: "Understand Proof of Cloud, a defense-in-depth framework that verifies physical infrastructure integrity through human-assisted, automated, and continuous monitoring."
 sidebar_label: Mitigations
 ---
 

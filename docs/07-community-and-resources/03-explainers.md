@@ -1,6 +1,6 @@
 ---
 title: Explainers
-description: 'Find beginner-friendly explainers and educational resources about TEEs, including ELI5 guides, detailed technical papers, and video tutorials.'
+description: "Find beginner-friendly explainers and educational resources about TEEs, including ELI5 guides, detailed technical papers, and video tutorials."
 sidebar_label: Explainers
 ---
 

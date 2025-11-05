@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: 'Learn what a Trusted Execution Environment (TEE) is and how it provides secure isolation for code and data within a main processor through hardware-based protection.'
+description: "Learn what a Trusted Execution Environment (TEE) is and how it provides secure isolation for code and data within a main processor through hardware-based protection."
 ---
 
 # What is a TEE?

@@ -114,9 +114,9 @@ function HeroSection() {
         </div>
         <p className={styles.heroSupport}>
           Supported by <strong>{contributorCount}</strong> contributing members—and growing.
-          <Link className={styles.heroSupportLink} to="#contributors">
+          <a className={styles.heroSupportLink} href="#contributors">
             Meet the community
-          </Link>
+          </a>
         </p>
       </div>
     </header>

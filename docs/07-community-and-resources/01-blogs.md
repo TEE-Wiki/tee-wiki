@@ -1,6 +1,6 @@
 ---
 title: Blogs, whitepapers, and research
-description: 'Access curated collection of TEE-related blogs, whitepapers, and research papers from leading organizations and researchers in the field.'
+description: "Access curated collection of TEE-related blogs, whitepapers, and research papers from leading organizations and researchers in the field."
 sidebar_label: Blogs, whitepapers, and research
 ---
 

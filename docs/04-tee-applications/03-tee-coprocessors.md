@@ -1,6 +1,6 @@
 ---
 title: TEE Coprocessors
-description: 'Understand how TEE Coprocessors handle secure, intensive computations like multi-proving, random number generation, and machine learning inference separately from the main EVM.'
+description: "Understand how TEE Coprocessors handle secure, intensive computations like multi-proving, random number generation, and machine learning inference separately from the main EVM."
 sidebar_label: TEE Coprocessors
 ---
 
