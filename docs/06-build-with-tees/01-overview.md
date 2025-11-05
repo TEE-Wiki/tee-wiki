@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
+description: 'Explore open-source SDKs and tools for building with TEEs including Gramine, DStack SDK, Automata SGX SDK, ROFL, and SecretVM.'
 ---
 
 # Building with TEEs

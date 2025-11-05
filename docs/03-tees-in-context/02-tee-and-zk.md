@@ -1,6 +1,6 @@
 ---
 title: TEEs + ZK
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
+description: 'Understand how TEEs and Zero-Knowledge proofs can work together, with TEEs providing soft finality and privacy for inputs while ZK offers final proof correctness.'
 sidebar_label: TEE + ZK
 ---
 

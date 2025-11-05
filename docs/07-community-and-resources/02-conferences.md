@@ -1,7 +1,7 @@
 ---
-title: Conferences, talks, podcasts, and workshops 
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
-sidebar_label: Conferences, talks, podcasts, and workshops 
+title: Conferences, talks, podcasts, and workshops
+description: 'Browse comprehensive archive of TEE-related conferences, talks, podcasts, and workshops from 2023 to present, organized chronologically.'
+sidebar_label: Conferences, talks, podcasts, and workshops
 ---
 
 # Conferences, talks, podcasts, and workshops 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
+description: 'Compare different types of TEEs including process-based (Intel SGX), VM-based (Intel TDX, AMD SEV), hypervisor-based (AWS Nitro), and custom TEE implementations with their advantages and trade-offs.'
 ---
 
 # Types of TEEs

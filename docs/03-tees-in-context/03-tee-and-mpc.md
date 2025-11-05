@@ -1,6 +1,6 @@
 ---
 title: TEE + MPC
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
+description: 'Learn how TEEs can enhance Multi-Party Computation by providing execution integrity guarantees without the complexity of coordinating many trusted parties.'
 sidebar_label: TEE + MPC
 ---
 

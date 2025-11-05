@@ -1,6 +1,6 @@
 ---
 title: Mitigations
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
+description: 'Understand Proof of Cloud, a defense-in-depth framework that verifies physical infrastructure integrity through human-assisted, automated, and continuous monitoring.'
 sidebar_label: Mitigations
 ---
 

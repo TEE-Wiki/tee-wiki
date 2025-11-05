@@ -1,6 +1,6 @@
 ---
 title: Hardware attacks
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
+description: 'Learn about physical attacks on TEE chips including ÆPIC Leak, VoltPillager voltage fault injection, and laser fault injection, along with their mitigations.'
 sidebar_label: Hardware attacks
 ---
 

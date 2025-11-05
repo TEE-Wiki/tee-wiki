@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.
+description: Learn how to contribute to TEE Wiki through documentation improvements, technical content, and code examples, with guidelines for contributors and admins.
 ---
 
 # Contributions

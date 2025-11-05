@@ -1,5 +1,6 @@
 ---
 title: AI Agents
+description: 'Explore how TEEs provide privacy through hardware isolation and verifiability through attestation for AI agents handling sensitive data and managing user funds.'
 sidebar_label: AI Agents
 ---
 

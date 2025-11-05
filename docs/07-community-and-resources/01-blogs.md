@@ -1,6 +1,6 @@
 ---
 title: Blogs, whitepapers, and research
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
+description: 'Access curated collection of TEE-related blogs, whitepapers, and research papers from leading organizations and researchers in the field.'
 sidebar_label: Blogs, whitepapers, and research
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: TEE + FHE
-description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
+description: 'Explore how TEEs secure key management for Fully Homomorphic Encryption, protecting decryption keys from unauthorized access while maintaining encryption integrity.'
 sidebar_label: TEE + FHE
 ---
 
