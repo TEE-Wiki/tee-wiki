@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-description: 'Explore the three fundamental components of TEEs: memory isolation, secure execution, and remote attestation, and understand how they work together to provide security.'
+description: "Explore the three fundamental components of TEEs: memory isolation, secure execution, and remote attestation, and understand how they work together to provide security."
 ---
 
 # Key components of a TEE

@@ -1,6 +1,6 @@
 ---
 title: TEEs and Other Cryptographic Primitives
-description: 'Compare TEEs with other cryptographic primitives including Zero-Knowledge proofs, Multi-Party Computation, and Fully Homomorphic Encryption, examining their trust assumptions, use cases, and limitations.'
+description: "Compare TEEs with other cryptographic primitives including Zero-Knowledge proofs, Multi-Party Computation, and Fully Homomorphic Encryption, examining their trust assumptions, use cases, and limitations."
 sidebar_label: TEEs and other cryptographic primitives
 ---
 

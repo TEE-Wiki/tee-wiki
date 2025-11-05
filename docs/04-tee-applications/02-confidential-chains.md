@@ -1,6 +1,6 @@
 ---
 title: Confidential chains
-description: 'Learn about blockchain platforms like Oasis, Phala Network, and Secret Network that integrate TEEs at the execution layer to provide on-chain privacy for smart contracts.'
+description: "Learn about blockchain platforms like Oasis, Phala Network, and Secret Network that integrate TEEs at the execution layer to provide on-chain privacy for smart contracts."
 sidebar_label: Confidential chains
 ---
 

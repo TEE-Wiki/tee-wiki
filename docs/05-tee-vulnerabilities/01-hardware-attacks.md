@@ -1,6 +1,6 @@
 ---
 title: Hardware attacks
-description: 'Learn about physical attacks on TEE chips including ÆPIC Leak, VoltPillager voltage fault injection, and laser fault injection, along with their mitigations.'
+description: "Learn about physical attacks on TEE chips including ÆPIC Leak, VoltPillager voltage fault injection, and laser fault injection, along with their mitigations."
 sidebar_label: Hardware attacks
 ---
 

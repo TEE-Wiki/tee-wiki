@@ -1,6 +1,6 @@
 ---
 title: TEE + MPC
-description: 'Learn how TEEs can enhance Multi-Party Computation by providing execution integrity guarantees without the complexity of coordinating many trusted parties.'
+description: "Learn how TEEs can enhance Multi-Party Computation by providing execution integrity guarantees without the complexity of coordinating many trusted parties."
 sidebar_label: TEE + MPC
 ---
 

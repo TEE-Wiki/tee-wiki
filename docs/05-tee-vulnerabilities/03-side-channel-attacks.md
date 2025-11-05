@@ -1,6 +1,6 @@
 ---
 title: Side-channel attacks
-description: 'Discover side-channel attacks like WireTap, SGX-Step, and CacheZoom that infer secrets by observing TEE behavior through timing, power, and electromagnetic emissions.'
+description: "Discover side-channel attacks like WireTap, SGX-Step, and CacheZoom that infer secrets by observing TEE behavior through timing, power, and electromagnetic emissions."
 sidebar_label: Side-channel attacks
 ---
 

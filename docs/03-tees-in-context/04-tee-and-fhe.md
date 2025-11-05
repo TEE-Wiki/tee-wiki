@@ -1,6 +1,6 @@
 ---
 title: TEE + FHE
-description: 'Explore how TEEs secure key management for Fully Homomorphic Encryption, protecting decryption keys from unauthorized access while maintaining encryption integrity.'
+description: "Explore how TEEs secure key management for Fully Homomorphic Encryption, protecting decryption keys from unauthorized access while maintaining encryption integrity."
 sidebar_label: TEE + FHE
 ---
 

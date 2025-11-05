@@ -1,6 +1,6 @@
 ---
 title: Software attacks
-description: 'Explore software-based attacks on TEEs like Foreshadow and SGAxe that exploit bugs in enclave firmware or runtime environments, and understand available mitigations.'
+description: "Explore software-based attacks on TEEs like Foreshadow and SGAxe that exploit bugs in enclave firmware or runtime environments, and understand available mitigations."
 sidebar_label: Software attacks
 ---
 
