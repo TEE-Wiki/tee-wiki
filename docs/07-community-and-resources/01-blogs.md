@@ -15,5 +15,5 @@ sidebar_label: Blogs, whitepapers, and research
 *   [Trusted Enclaves: On TEEs and why they're important by Oliver Jaros and Shlok Khemani](https://www.decentralised.co/p/trusted-enclaves)
 *   [DeAI III: Composable Compute by Pondering Durian](https://members.delphidigital.io/reports/deai-iii-composable-compute#key-takeaways)
 
-# Threads
+## Others (threads)
 *   [Why the TEE.fail exploit made me more bullish on TEEs by Rahul Saxena](https://x.com/saxenism/status/1986405126010200366)
