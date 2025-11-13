@@ -16,3 +16,5 @@ description: "Explore open-source SDKs and tools for building with TEEs includin
 * **[ROFL](https://docs.oasis.io/build/rofl/quickstart)**: Run containerized apps in confidential VMs with out of the box support for decentralized policy management, key management, execution transparency and reproducible builds. Easily deploy apps on a decentralized cloud of TEE compute providers.
 
 * **[SecretVM](https://github.com/scrtlabs/secretvm)**: SecretVM SDK includes all the components required to launch confidential Virtual Machines, including a reproducible build system for CVM artifacts, an on-chain Key Management System, and other tools
+
+* **[Nautilus](https://github.com/MystenLabs/nautilus)**: Run resource-intensive, privacy-critical dApp workloads inside self-managed TEEs, while preserving on-chain trust via Sui Move smart contracts that verify attestations onchain. Nautilus provides a reproducible build template and runtime framework so hybrid dApps can handle private data, complex computations, and Web2 integrations in a tamper-resistant, cryptographically verifiable way.
